@@ -1,0 +1,82 @@
+[
+  {
+    "bookId": "3385c162-936b-4f87-854c-7ff2d08504c4",
+    "genreId": "0cb7d9ca-9563-4623-a59e-76cd18c16a73"
+  },
+  {
+    "bookId": "bc65dde3-aadc-4e55-b84d-f5e3f6dd21c6",
+    "genreId": "b45e207e-37e2-4190-a962-355fe26839ac"
+  },
+  {
+    "bookId": "a6876ff7-6545-404a-af8a-2bcf185811e3",
+    "genreId": "e13e5cf4-0612-4eb7-8139-85f7812940db"
+  },
+  {
+    "bookId": "c975b5a2-2d71-4603-8896-b17ff494a7c3",
+    "genreId": "40ff7d1b-548f-4092-89fe-5e52d6960068"
+  },
+  {
+    "bookId": "af2fb1e6-380f-4131-93e6-876b60079a69",
+    "genreId": "246d16a2-3a3c-4ca2-928e-3790a37713eb"
+  },
+  {
+    "bookId": "09d8fa8d-4198-4a5a-a8e8-53a243b5d6aa",
+    "genreId": "31a433ff-676f-42af-bb5a-4c635b5119f2"
+  },
+  {
+    "bookId": "c37fbc2b-f2ab-4f82-a043-146e22725f3f",
+    "genreId": "888bc38b-24b1-42ea-afb1-e6b3a73a1b46"
+  },
+  {
+    "bookId": "d2f03d39-187c-4711-a70e-d45ea8aa93a6",
+    "genreId": "5a637491-b727-4ed9-b7e0-11cae4edeabd"
+  },
+  {
+    "bookId": "43d5523a-cc32-43d3-91cd-b5f32ea190a4",
+    "genreId": "861380e4-4f62-4d28-8254-18b0b6e64528"
+  },
+  {
+    "bookId": "577601a6-d358-4259-b26b-a6462a023f29",
+    "genreId": "33fc8f9b-f560-4ed0-b1d5-6d3cc29ae721"
+  },
+  {
+    "bookId": "34242ccb-5750-448e-9714-ad45f3f34e97",
+    "genreId": "0cb7d9ca-9563-4623-a59e-76cd18c16a73"
+  },
+  {
+    "bookId": "10d4b279-2cb6-4e3e-9103-5ff5230c8f5e",
+    "genreId": "b45e207e-37e2-4190-a962-355fe26839ac"
+  },
+  {
+    "bookId": "e8eb40f3-71c7-4fbb-8bab-787854e61940",
+    "genreId": "e13e5cf4-0612-4eb7-8139-85f7812940db"
+  },
+  {
+    "bookId": "38b22bf0-3dd0-4699-abd8-e5b6b0a777ac",
+    "genreId": "40ff7d1b-548f-4092-89fe-5e52d6960068"
+  },
+  {
+    "bookId": "f0333459-9d8a-416d-adef-d981273e138e",
+    "genreId": "246d16a2-3a3c-4ca2-928e-3790a37713eb"
+  },
+  {
+    "bookId": "e47f9663-1965-4aee-b668-5e9d4a6a3789",
+    "genreId": "31a433ff-676f-42af-bb5a-4c635b5119f2"
+  },
+  {
+    "bookId": "2f284659-ce9b-4fbf-a34c-f9c56c900e3e",
+    "genreId": "888bc38b-24b1-42ea-afb1-e6b3a73a1b46"
+  },
+  {
+    "bookId": "8baebb8f-6086-4669-a458-f8b4a0d2b76b",
+    "genreId": "5a637491-b727-4ed9-b7e0-11cae4edeabd"
+  },
+  {
+    "bookId": "2d6591ef-220f-4e72-8316-fcbf4a48d990",
+    "genreId": "861380e4-4f62-4d28-8254-18b0b6e64528"
+  },
+  {
+    "bookId": "b69e61cd-6bd9-4c31-a972-afeaaf12f424",
+    "genreId": "33fc8f9b-f560-4ed0-b1d5-6d3cc29ae721"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "3385c162-936b-4f87-854c-7ff2d08504c4",
+    "title": "Octane",
+    "description": "Morbi porttitor lorem id ligula.",
+    "price": 54,
+    "publishYear": 1999,
+    "createdDate": "2023-04-12T15:22:25Z",
+    "lastModifiedDate": "2023-09-20T16:20:27Z"
+  },
+  {
+    "id": "bc65dde3-aadc-4e55-b84d-f5e3f6dd21c6",
+    "title": "711 Ocean Drive",
+    "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
+    "price": 32,
+    "publishYear": 2002,
+    "createdDate": "2022-12-17T01:45:05Z",
+    "lastModifiedDate": "2023-10-22T08:06:43Z"
+  },
+  {
+    "id": "a6876ff7-6545-404a-af8a-2bcf185811e3",
+    "title": "Winter Sleep (Kis Uykusu)",
+    "description": "In hac habitasse platea dictumst.",
+    "price": 19,
+    "publishYear": 2010,
+    "createdDate": "2023-01-24T21:51:42Z",
+    "lastModifiedDate": "2023-10-27T00:44:14Z"
+  },
+  {
+    "id": "c975b5a2-2d71-4603-8896-b17ff494a7c3",
+    "title": "Scandal",
+    "description": "Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
+    "price": 64,
+    "publishYear": 2011,
+    "createdDate": "2023-07-22T10:37:13Z",
+    "lastModifiedDate": "2023-09-05T22:38:06Z"
+  },
+  {
+    "id": "af2fb1e6-380f-4131-93e6-876b60079a69",
+    "title": "Miraculum",
+    "description": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+    "price": 76,
+    "publishYear": 1992,
+    "createdDate": "2023-02-27T07:06:45Z",
+    "lastModifiedDate": "2023-10-28T01:43:39Z"
+  },
+  {
+    "id": "09d8fa8d-4198-4a5a-a8e8-53a243b5d6aa",
+    "title": "Green Dragon",
+    "description": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
+    "price": 54,
+    "publishYear": 2000,
+    "createdDate": "2023-02-03T03:21:44Z",
+    "lastModifiedDate": "2023-09-03T05:02:06Z"
+  },
+  {
+    "id": "c37fbc2b-f2ab-4f82-a043-146e22725f3f",
+    "title": "Haunted Mansion, The",
+    "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "price": 45,
+    "publishYear": 2005,
+    "createdDate": "2023-04-21T03:19:58Z",
+    "lastModifiedDate": "2023-09-22T16:46:57Z"
+  },
+  {
+    "id": "d2f03d39-187c-4711-a70e-d45ea8aa93a6",
+    "title": "Message, The (a.k.a. Mohammad: Messenger of God)",
+    "description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
+    "price": 40,
+    "publishYear": 1995,
+    "createdDate": "2023-04-24T04:26:44Z",
+    "lastModifiedDate": "2023-10-19T19:54:12Z"
+  },
+  {
+    "id": "43d5523a-cc32-43d3-91cd-b5f32ea190a4",
+    "title": "Bad Timing: A Sensual Obsession",
+    "description": "Duis at velit eu est congue elementum.",
+    "price": 71,
+    "publishYear": 2006,
+    "createdDate": "2023-04-05T03:40:31Z",
+    "lastModifiedDate": "2023-09-18T00:31:44Z"
+  },
+  {
+    "id": "577601a6-d358-4259-b26b-a6462a023f29",
+    "title": "Monterey Pop",
+    "description": "Suspendisse potenti.",
+    "price": 67,
+    "publishYear": 1991,
+    "createdDate": "2023-02-25T14:46:31Z",
+    "lastModifiedDate": "2023-09-25T11:43:56Z"
+  },
+  {
+    "id": "34242ccb-5750-448e-9714-ad45f3f34e97",
+    "title": "Casting Couch",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+    "price": 67,
+    "publishYear": 2003,
+    "createdDate": "2022-12-19T18:35:09Z",
+    "lastModifiedDate": "2023-09-23T16:39:55Z"
+  },
+  {
+    "id": "10d4b279-2cb6-4e3e-9103-5ff5230c8f5e",
+    "title": "102 Dalmatians",
+    "description": "Donec dapibus. Duis at velit eu est congue elementum.",
+    "price": 84,
+    "publishYear": 1985,
+    "createdDate": "2023-07-30T20:57:29Z",
+    "lastModifiedDate": "2023-09-04T14:39:07Z"
+  },
+  {
+    "id": "e8eb40f3-71c7-4fbb-8bab-787854e61940",
+    "title": "Hell's Highway: The True Story of Highway Safety Films",
+    "description": "Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "price": 96,
+    "publishYear": 1993,
+    "createdDate": "2023-01-25T08:23:25Z",
+    "lastModifiedDate": "2023-10-06T03:08:35Z"
+  },
+  {
+    "id": "38b22bf0-3dd0-4699-abd8-e5b6b0a777ac",
+    "title": "Backbeat",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus.",
+    "price": 17,
+    "publishYear": 1971,
+    "createdDate": "2022-11-15T03:50:28Z",
+    "lastModifiedDate": "2023-09-03T23:42:03Z"
+  },
+  {
+    "id": "f0333459-9d8a-416d-adef-d981273e138e",
+    "title": "Don't Be a Menace to South Central While Drinking Your Juice in the Hood",
+    "description": "In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",
+    "price": 33,
+    "publishYear": 1998,
+    "createdDate": "2023-07-03T17:28:04Z",
+    "lastModifiedDate": "2023-09-22T06:29:28Z"
+  },
+  {
+    "id": "e47f9663-1965-4aee-b668-5e9d4a6a3789",
+    "title": "Maelström",
+    "description": "Suspendisse ornare consequat lectus.",
+    "price": 74,
+    "publishYear": 1999,
+    "createdDate": "2023-07-01T10:51:22Z",
+    "lastModifiedDate": "2023-10-24T18:19:29Z"
+  },
+  {
+    "id": "2f284659-ce9b-4fbf-a34c-f9c56c900e3e",
+    "title": "What If ...",
+    "description": "Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",
+    "price": 55,
+    "publishYear": 1963,
+    "createdDate": "2022-12-09T22:17:16Z",
+    "lastModifiedDate": "2023-10-12T07:23:53Z"
+  },
+  {
+    "id": "8baebb8f-6086-4669-a458-f8b4a0d2b76b",
+    "title": "Running Man, The",
+    "description": "Nulla ac enim.",
+    "price": 55,
+    "publishYear": 2006,
+    "createdDate": "2022-12-17T14:41:11Z",
+    "lastModifiedDate": "2023-10-23T11:30:08Z"
+  },
+  {
+    "id": "2d6591ef-220f-4e72-8316-fcbf4a48d990",
+    "title": "Pursuit of Happiness, The",
+    "description": "Phasellus in felis. Donec semper sapien a libero.",
+    "price": 48,
+    "publishYear": 1997,
+    "createdDate": "2023-03-20T14:57:36Z",
+    "lastModifiedDate": "2023-09-06T05:04:47Z"
+  },
+  {
+    "id": "b69e61cd-6bd9-4c31-a972-afeaaf12f424",
+    "title": "Camilla",
+    "description": "Duis at velit eu est congue elementum.",
+    "price": 90,
+    "publishYear": 2001,
+    "createdDate": "2023-07-30T16:42:24Z",
+    "lastModifiedDate": "2023-10-24T12:37:29Z"
+  }
+]

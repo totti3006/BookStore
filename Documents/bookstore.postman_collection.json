@@ -1,0 +1,690 @@
+{
+	"info": {
+		"_postman_id": "37d822cf-df45-4a18-a7d0-da523d8a10d7",
+		"name": "bookstore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27178657",
+		"_collection_link": "https://martian-trinity-636888.postman.co/workspace/dacn~7647ae33-707f-40dd-87e1-db77fc33ed0a/collection/27178657-37d822cf-df45-4a18-a7d0-da523d8a10d7?action=share&source=collection_link&creator=27178657"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"kedat30062001@gmail.com\",\r\n    \"password\": \"kedat123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}api/Auth/login",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Henry\",\r\n    \"email\": \"henry@gmail.com\",\r\n    \"password\": \"kedat123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}api/Auth/register",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Forgot Password",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"kedat30062001@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}api/Auth/forgot-password",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Auth",
+								"forgot-password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reset Password",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"otpCode\": \"619138\",\r\n    \"newPassword\": \"totti3006\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}api/Auth/reset-password?email=kedat30062001@gmail.com",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Auth",
+								"reset-password"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "kedat30062001@gmail.com"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Book",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"contentType": "",
+									"type": "file",
+									"src": "/C:/Users/Nguyen Dat/Downloads/Winter Sleep.jpg"
+								},
+								{
+									"key": "title",
+									"value": "Day dream 3",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "very good",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "7",
+									"type": "text"
+								},
+								{
+									"key": "publishYear",
+									"value": "2023",
+									"type": "text"
+								},
+								{
+									"key": "authors",
+									"value": "BA1602F5-11D2-4B36-B567-3D6C702C25F6",
+									"type": "text"
+								},
+								{
+									"key": "genres",
+									"value": "5A637491-B727-4ED9-B7E0-11CAE4EDEABD",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}api/Book/create",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Book",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": \"07DDBF74-3167-405E-AE98-E295B6BB10A8\",\r\n  \"title\": \"1q84 3\",\r\n  \"description\": \"very good\",\r\n  \"price\": 100,\r\n  \"publishYear\": 2020,\r\n  \"imageUrl\": \"string\",\r\n  \"authors\": [\r\n    \"3F2CD2B4-51CA-4A4A-8FE0-3A24828FC050\"\r\n  ],\r\n  \"genres\": [\r\n    \"861380E4-4F62-4D28-8254-18B0B6E64528\"\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}api/Book/update",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Book",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}api/Book/delete?bookId=09D8FA8D-4198-4A5A-A8E8-53A243B5D6AA",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Book",
+								"delete"
+							],
+							"query": [
+								{
+									"key": "bookId",
+									"value": "09D8FA8D-4198-4A5A-A8E8-53A243B5D6AA"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}api/Book/get-detail/5BF3DC89-8190-4050-B228-A54593660E26",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Book",
+								"get-detail",
+								"5BF3DC89-8190-4050-B228-A54593660E26"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Paging",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}api/Book/get?page=1&pageSize=10",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Book",
+								"get"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}api/Book/search?Title=ca",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Book",
+								"search"
+							],
+							"query": [
+								{
+									"key": "Title",
+									"value": "ca"
+								},
+								{
+									"key": "Author",
+									"value": "h",
+									"disabled": true
+								},
+								{
+									"key": "Genre",
+									"value": null,
+									"disabled": true
+								},
+								{
+									"key": "PublishYear",
+									"value": "2001",
+									"disabled": true
+								},
+								{
+									"key": "Page",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "PageSize",
+									"value": "5",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mark Favorite",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"bookId\": \"C975B5A2-2D71-4603-8896-B17FF494A7C3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}api/Book/mark-favorite",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Book",
+								"mark-favorite"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Favorite",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}api/Book/get-favorite?Page=1&PageSize=5",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Book",
+								"get-favorite"
+							],
+							"query": [
+								{
+									"key": "Page",
+									"value": "1"
+								},
+								{
+									"key": "PageSize",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unmark Favorite",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"bookId\": \"C975B5A2-2D71-4603-8896-B17FF494AC3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}api/Book/unmark-favorite",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Book",
+								"unmark-favorite"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Cart",
+			"item": [
+				{
+					"name": "Get user cart",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}api/Cart/get",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Cart",
+								"get"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add book to cart",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}api/Cart/add?bookId=A6876FF7-6545-404A-AF8A-2BCF185811E3",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Cart",
+								"add"
+							],
+							"query": [
+								{
+									"key": "bookId",
+									"value": "A6876FF7-6545-404A-AF8A-2BCF185811E3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Remove book from cart",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}api/Cart/remove?cartId=8d969cd6-7f9f-4f5c-8af1-4916e91354c2",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Cart",
+								"remove"
+							],
+							"query": [
+								{
+									"key": "cartId",
+									"value": "8d969cd6-7f9f-4f5c-8af1-4916e91354c2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Order",
+			"item": [
+				{
+					"name": "Place order",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"books\": [\r\n    {\r\n      \"id\": \"A6876FF7-6545-404A-AF8A-2BCF185811E3\",\r\n      \"title\": \"Winter Sleep (Kis Uykusu)\",\r\n      \"price\": 19.00,\r\n      \"imageUrl\": null\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}api/Order/place-order",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Order",
+								"place-order"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Paging",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}api/Order/get?Page=1&PageSize=5",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Order",
+								"get"
+							],
+							"query": [
+								{
+									"key": "Page",
+									"value": "1"
+								},
+								{
+									"key": "PageSize",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Review",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Winter sleep is excelent\",\r\n    \"description\": \"touch my heart\",\r\n    \"rating\": 5,\r\n    \"imageUrl\": \"\",\r\n    \"bookId\": \"A6876FF7-6545-404A-AF8A-2BCF185811E3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}api/Review/add",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Review",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Paging",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}api/Review/get?bookId=E47F9663-1965-4AEE-B668-5E9D4A6A3789&page=1&pageSize=5",
+							"host": [
+								"{{url}}api"
+							],
+							"path": [
+								"Review",
+								"get"
+							],
+							"query": [
+								{
+									"key": "bookId",
+									"value": "E47F9663-1965-4AEE-B668-5E9D4A6A3789"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

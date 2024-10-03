@@ -1,0 +1,42 @@
+[
+  {
+    "id": "0cb7d9ca-9563-4623-a59e-76cd18c16a73",
+    "name": "Comedy"
+  },
+  {
+    "id": "b45e207e-37e2-4190-a962-355fe26839ac",
+    "name": "Comedy|Crime"
+  },
+  {
+    "id": "e13e5cf4-0612-4eb7-8139-85f7812940db",
+    "name": "Adventure|Drama|War"
+  },
+  {
+    "id": "40ff7d1b-548f-4092-89fe-5e52d6960068",
+    "name": "Crime|Drama|Thriller"
+  },
+  {
+    "id": "246d16a2-3a3c-4ca2-928e-3790a37713eb",
+    "name": "Action|Adventure|Thriller"
+  },
+  {
+    "id": "31a433ff-676f-42af-bb5a-4c635b5119f2",
+    "name": "Drama|Film-Noir|Musical|Thriller"
+  },
+  {
+    "id": "888bc38b-24b1-42ea-afb1-e6b3a73a1b46",
+    "name": "Comedy|Drama|Romance"
+  },
+  {
+    "id": "5a637491-b727-4ed9-b7e0-11cae4edeabd",
+    "name": "(no genres listed)"
+  },
+  {
+    "id": "861380e4-4f62-4d28-8254-18b0b6e64528",
+    "name": "Action|Thriller|War"
+  },
+  {
+    "id": "33fc8f9b-f560-4ed0-b1d5-6d3cc29ae721",
+    "name": "Drama"
+  }
+]
